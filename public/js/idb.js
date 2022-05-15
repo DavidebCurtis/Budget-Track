@@ -37,6 +37,7 @@ function saveRecord(record) {
 
   // add record to your store with add method
   budgetObjectStore.add(record);
+  alert('transaction saved');
 }
 
 function uploadBudget() {
@@ -81,3 +82,6 @@ function uploadBudget() {
     }
   };
 }
+
+// listen for app coming back online
+window.addEventListener('online', uploadBudget);
