@@ -14,4 +14,4 @@ When brought back online:
 
 - Offline entries should be added to tracker.
 
-- Deployed application [Heroku and MongoDB Atlas.](https://budget-appli.herokuapp.com/)
+# Deployed application [Heroku and MongoDB Atlas.](https://budget-appli.herokuapp.com/)
